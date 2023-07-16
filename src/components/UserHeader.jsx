@@ -13,7 +13,7 @@ const UserHeader = () => {
 		const currentURL = window.location.href;
 		navigator.clipboard.writeText(currentURL).then(() => {
 			toast({
-				title: "Account created.",
+				title: "Success.",
 				status: "success",
 				description: "Profile link copied.",
 				duration: 3000,
